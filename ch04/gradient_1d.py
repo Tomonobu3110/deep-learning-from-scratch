@@ -26,6 +26,14 @@ plt.ylabel("f(x)")
 tf = tangent_line(function_1, 5)
 y2 = tf(x)
 
+tf3 = tangent_line(function_1, 10)
+y3 = tf3(x)
+
+tf4 = tangent_line(function_1, 15)
+y4 = tf4(x)
+
 plt.plot(x, y)
 plt.plot(x, y2)
+plt.plot(x, y3)
+plt.plot(x, y4)
 plt.show()
